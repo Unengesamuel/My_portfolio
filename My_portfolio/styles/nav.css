@@ -1,0 +1,69 @@
+body {
+    /* background-color: rgb(112, 89, 56); */
+    background-color: rgb(59, 34, 0);
+}
+
+
+/* NAV */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: burlywood;
+}
+
+.nav-links {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(59, 34, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav h1{
+    font-weight: bolder;
+    font-size: xx-large;
+    color:  rgb(59, 34, 0);
+    cursor: pointer;
+}
+
+.aboutli {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.contactli {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.About,
+.experience,
+.contact,
+.projects {
+    padding: 10px 20px;   
+    margin-left: 7px; 
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    border: none;
+}
+
+nav  a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+.hidden {
+    display: none;
+}

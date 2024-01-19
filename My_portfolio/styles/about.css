@@ -1,0 +1,90 @@
+
+
+.About {
+    color:  rgb(59, 34, 0);
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    border-radius: 7px;
+    margin-left: -1px;
+}
+
+.sava {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 612px;
+    gap: 3rem;
+}
+
+.first {
+    color: saddlebrown;
+    font-size: x-large;
+    margin-bottom: 0;
+    
+}
+
+.second {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: burlywood;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    color: saddlebrown;
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* BUTTONS */
+
+.btn {
+    padding: 10px;
+    border-radius: 7px;
+    color: rgb(54, 33, 5);
+    background-color: burlywood;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid saddlebrown;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: saddlebrown;
+    color: burlywood;
+    border: 1px solid burlywood;
+}
+
+#socials-container {
+    display: flex;
+    
+  }
+
+
+/* ICONS */
+
+.icon {
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7px;
+    cursor: pointer;
+    height: 2rem;
+}
